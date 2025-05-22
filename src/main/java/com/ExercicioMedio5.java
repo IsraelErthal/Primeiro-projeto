@@ -14,6 +14,6 @@ public class ExercicioMedio5 {
         System.out.println("Digite o percentual de reajuste");
         double percentual = scanner.nextDouble();
         double salarioReajustado = salario + (salario * percentual / 100);
-        System.out.println("Seu salário reajustado é de: R$"+ salarioReajustado);
+        System.out.println(nome + " Seu salário reajustado é de: R$"+ salarioReajustado);
     }
 }

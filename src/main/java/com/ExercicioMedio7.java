@@ -19,6 +19,7 @@ public class ExercicioMedio7 {
         double nota3 = scanner.nextDouble();
         System.out.println("Qual o peso da nota?");
         double peso3 = scanner.nextDouble();
-        double notaPonderada = nota1*peso1 + nota2*peso2;
+        double notaPonderada = (nota1*peso1 + nota2*peso2 + nota3*peso3) / (peso1 + peso2 + peso3);
+        System.out.println("A nota ponderada é " + notaPonderada);
     }
 }
