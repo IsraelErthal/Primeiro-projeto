@@ -1,4 +1,4 @@
-package estruturacondicional3;
+package main.java.com.estruturacondicional3;
 
 import java.util.Scanner;
 
