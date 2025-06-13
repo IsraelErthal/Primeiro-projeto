@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o número do seu m~ES PARA SABER SEU SIGNO");
+        System.out.println("Digite o número do seu mês para saber o seu signo");
         int mes = scanner.nextInt();
 
         switch (mes) {
@@ -35,7 +35,30 @@ public class Exercicio12 {
 
             case 7:
                 System.out.println("cancer ou leao");
+            break;
 
+            case 8:
+                System.out.println("Leão ou virgem");
+            break;
+
+            case 9:
+                System.out.println("Virgem ou Libra");
+            break;
+
+            case 10:
+                System.out.println("Libra ou escorpião");
+            break;
+
+            case 11:
+                System.out.println("Escorpião ou Sagitário");
+            break;
+
+            case 12:
+                System.out.println("Sagitário ou capricórnio");
+            break;
+
+            default:
+                System.out.println("Mês inexistente");
         }
     }
 }

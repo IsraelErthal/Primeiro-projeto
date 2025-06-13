@@ -28,7 +28,8 @@ public class Exercicio10 {
             case "Sul":
                 System.out.println("R$10 e 1 semana");
                 break;
-            default:"Região inválida"
+            default:
+                System.out.println("Região Inválida");
         }
     }
 }
