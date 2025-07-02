@@ -25,6 +25,9 @@ public class Exercicio13 {
 
             case 4:
                 System.out.println("A temperatura em celsius é " + (temperatura - 273) + "°");
+
+            default:
+                System.out.println("Caso não encontrado!");
         }
 
     }

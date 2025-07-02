@@ -1,7 +1,5 @@
 package main.java.com.estruturacondicional;
 
-import main.java.com.Subtracao;
-
 import java.util.Scanner;
 public class Exercicio4 {
     public static void main(String[] args) {
